@@ -1,0 +1,32 @@
+[2018-06-11T14:26:54.038] [INFO] jobLog - 
+*************** jobInfo log start ***************
+定时任务名称： 今日头条
+获取到数据 6 条
+请求url  https://www.toutiao.com/
+耗时： 36368
+*************** jobInfo log end ***************
+
+[2018-06-11T14:29:48.985] [INFO] jobLog - 
+*************** jobInfo log start ***************
+定时任务名称： 今日头条
+获取到数据 7 条
+请求url  https://www.toutiao.com/
+耗时： 36932
+*************** jobInfo log end ***************
+
+[2018-06-11T14:44:22.822] [INFO] jobLog - 
+*************** jobInfo log start ***************
+定时任务名称： 今日头条
+获取到数据 2 条
+请求url  https://www.toutiao.com/
+耗时： 25194
+*************** jobInfo log end ***************
+
+[2018-06-11T14:48:50.244] [INFO] jobLog - 
+*************** jobInfo log start ***************
+定时任务名称： 今日头条
+获取到数据 4 条
+请求url  https://www.toutiao.com/
+耗时： 26409
+*************** jobInfo log end ***************
+

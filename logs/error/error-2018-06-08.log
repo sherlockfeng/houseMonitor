@@ -1,0 +1,41 @@
+[2018-06-08T16:21:41.658] [ERROR] error - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/toutiao
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 12
+err name: Error
+err message: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '"12"' at line 1
+err stack: Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '"12"' at line 1
+    at Query.Sequence._packetToError (D:\personal\project\krv\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (D:\personal\project\krv\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\personal\project\krv\node_modules\mysql\lib\protocol\Protocol.js:279:23)
+    at Parser.write (D:\personal\project\krv\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (D:\personal\project\krv\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (D:\personal\project\krv\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:607:20)
+    --------------------
+    at Protocol._enqueue (D:\personal\project\krv\node_modules\mysql\lib\protocol\Protocol.js:145:48)
+    at PoolConnection.query (D:\personal\project\krv\node_modules\mysql\lib\Connection.js:208:25)
+    at pool.getConnection (D:\personal\project\krv\utils\dbUtil.js:20:20)
+    at Handshake.onConnect [as _callback] (D:\personal\project\krv\node_modules\mysql\lib\Pool.js:64:7)
+    at Handshake.Sequence.end (D:\personal\project\krv\node_modules\mysql\lib\protocol\sequences\Sequence.js:88:24)
+    at Handshake.Sequence.OkPacket (D:\personal\project\krv\node_modules\mysql\lib\protocol\sequences\Sequence.js:97:8)
+    at Protocol._parsePacket (D:\personal\project\krv\node_modules\mysql\lib\protocol\Protocol.js:279:23)
+    at Parser.write (D:\personal\project\krv\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (D:\personal\project\krv\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (D:\personal\project\krv\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:607:20)
+*************** error log end ***************
+

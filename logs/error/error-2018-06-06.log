@@ -1,0 +1,93 @@
+[2018-06-06T11:15:56.290] [ERROR] error - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/zhihu
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 162
+err name: ReferenceError
+err message: s1 is not defined
+err stack: ReferenceError: s1 is not defined
+    at zhihu (D:\personal\project\krv\controllers\api.js:23:83)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+*************** error log end ***************
+
+[2018-06-06T11:16:02.548] [ERROR] error - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/zhihu
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 105
+err name: ReferenceError
+err message: s1 is not defined
+err stack: ReferenceError: s1 is not defined
+    at zhihu (D:\personal\project\krv\controllers\api.js:23:83)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+*************** error log end ***************
+
+[2018-06-06T11:16:08.256] [ERROR] error - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/zhihu
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 104
+err name: ReferenceError
+err message: s1 is not defined
+err stack: ReferenceError: s1 is not defined
+    at zhihu (D:\personal\project\krv\controllers\api.js:23:83)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+*************** error log end ***************
+
+[2018-06-06T11:17:15.069] [ERROR] error - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/zhihu
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 205
+err name: ReferenceError
+err message: Data is not defined
+err stack: ReferenceError: Data is not defined
+    at Object.getTime (D:\personal\project\krv\utils\utils.js:9:16)
+    at zhihu (D:\personal\project\krv\controllers\api.js:22:22)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+*************** error log end ***************
+
+[2018-06-06T11:19:22.295] [ERROR] error - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/zhihu
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 163
+err name: TypeError
+err message: date.getMonth is not a function
+err stack: TypeError: date.getMonth is not a function
+    at Object.getTime (D:\personal\project\krv\utils\utils.js:11:19)
+    at zhihu (D:\personal\project\krv\controllers\api.js:22:22)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+*************** error log end ***************
+
+[2018-06-06T11:20:31.923] [ERROR] error - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/zhihu
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 183
+err name: TypeError
+err message: date.setTime is not a function
+err stack: TypeError: date.setTime is not a function
+    at Object.getTime (D:\personal\project\krv\utils\utils.js:10:10)
+    at zhihu (D:\personal\project\krv\controllers\api.js:22:22)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+*************** error log end ***************
+
